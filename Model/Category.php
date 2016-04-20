@@ -37,6 +37,11 @@ abstract class Category implements CategoryInterface
     protected $description;
 
     /**
+     * @var int
+     */
+    protected $count;
+
+    /**
      * @var \DateTime
      */
     protected $createdAt;
